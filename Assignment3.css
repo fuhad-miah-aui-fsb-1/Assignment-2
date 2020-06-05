@@ -1,0 +1,87 @@
+.n-flex {
+    font-size: 20px;
+    color: solid black;
+    
+    background-color: gray;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 30px 30px 50px solid gray;
+    width: 500px;
+}
+.left {
+    float: left;
+    background-color:white;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 30px 30px 50px solid gray;
+    width: 415px;
+}
+.thumbnail {
+    float: left;
+    background-color: gray;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 30px 30px 50px solid gray;
+    width: 200x;
+    height: 150px;
+}
+.right {
+    float: left;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 40px 40px 70px solid gray;
+    width: 415px;
+
+}
+.thumbnail-2 {
+    float: left;
+    background-color: gray;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 40px 40px 0px solid gray;
+    width: 200px;
+    height: 150px;
+}
+.left-2 {
+    float: left;
+    width: 600px;
+    margin-right: 400px;
+    padding: 10px;
+}
+.right-2 {
+    float: left;
+    width: 400;
+    padding: 10px; 
+     
+}
+.m-flex {
+    width: 600px;
+    background-color: white;
+    padding: 10px;
+}  
+.left-3 {
+    float: left;
+    width: 600px;
+    margin-right: 400px;
+    padding: 10px;
+    
+}
+.right-3 {  
+   
+    float: left;
+    width: 400px;
+    padding: 10px;
+    shape-margin: 10px;
+}
+.another {
+    padding: 10px;
+    
+    width: 600px;
+}
+.new {
+    padding: 10px;
+    
+    width: 600px;
+}
+

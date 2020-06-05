@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    
+}
+.add-border {
+    border: initial;
+}
+

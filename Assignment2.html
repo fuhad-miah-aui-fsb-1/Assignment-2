@@ -1,17 +1,19 @@
 <html>
 <head>
  <title>Assignment 2</title>
+ <link rel="stylesheet" href="Assignment3.css">
+ <link rel="stylesheet" href="Assignment3flexbox.css">
 </head>
 
 <body>
     <div>
-      <div>
+      <div class="flex-div">
          <p>Subscribe</p> 
-         <h>Large</h>
+         <h style="font-size: 30px; color: black;">Large</h>
          <input type="text">
          <button>Sign up</button>
       </div>
-        <div>
+        <div class="flex-div add-border">
            <p>World</p>
            <p>U.S.</p>
            <p>Technology</p>
@@ -23,107 +25,110 @@
             <p>Science</p>
             <p>Health</p>
          </div>
-           <div>
-               <h>Title of a longer featured blog post</h>
-               <p>Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+           <div class="n-flex">
+               <h1 style="font-size: 30px; color: black;">Title of a longer featured blog post</h1>
+               <p>Multiple lines of text that form the lede, informing new readers quickly and efficiently about
+               what's most interesting in this post's contents.</p>
                <a href="assignment2.html">Continue reading...</a><br>
 
            </div>
-            <div>
-            <h2>World</h2>
+            <div class="left">
+            <h style="font-size: 30px; color: blue; ">World</h>
             <h1>Featured Post</h1>
-            <p>Nov 12</p>
+            <p style="color: gray;">Nov 12</p>
             <p>This is a wider card with supporting text below as a natural lead-in to additional content</p>
-            <p>Continue reading</p>
+            <a href="assignment2.html">Continue reading...</a><br>
            </div>
-            <div>
-              <h3>Design</h3>
-              <p>Post Title</p>
-              <p>Nov 11</p>
-              <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <p>Continue reading</p>
+             <div class="thumbnail">
+               <h1>Thumbnail</h1>
              </div>
-              <div>
-                <h1>From the Firehose </h1>
-                <h2>Sample blog Post</h2>
-                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              </div>
-                <div>
-                  <h2>Heading</h2>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                </div>
-                  <div>
-                    <h>About</h>
+            <div class="right">
+              <h style="font-size: 30px; color: green; ">Design</h>
+              <h1>Post Title</h1>
+              <p style="color: gray;">Nov 11</p>
+              <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="assignment2.html">Continue reading...</a><br>
+            </div>
+             <div>
+               <h1 class="thumbnail-2">Thumbnail</h1>
+             </div>
+               <div class="left-2">
+                 <h1>From the Firehose </h1>
+                 <h2>Sample blog Post</h2>
+                 <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                 <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                 <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+               </div>
+                  <div class="right-2">
+                    <h style="color: blue;">About</h>
                     <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                   </div>
-                    <div>
-                      <h>Archives</h>
-                      <p>March 2014</p>
-                      <p>Feburary 2014</p>
-                      <p>january 2014</p>
-                      <p>December 2013</p>
-                      <p>November 2013</p>
-                      <p>October 2013</p>
-                      <p>September 2013</p>
-                      <p>August 2013</p>
-                      <p>July 2013</p>  
-                      <p> June 2013</p>
-                      <p> May 2013</p>
-                      <p> April 2013</p>
-                    </div>
-                    <div>
-                      <h>Elsewhere</h>
-                      <p>Github</p>
-                      <p>Twitter</p>
-                      <p>Facebook</p>
-                    </div>
-                      <div>
-                        <h></h>
-                        <p></p>
+                    
+                     <div class="right-2">
+                      <h1>Archives</h1>
+                      <p style="color: blue;">March 2014</p>
+                      <p style="color: blue;">Feburary 2014</p>
+                      <p style="color: blue;">january 2014</p>
+                      <p style="color: blue;">December 2013</p>
+                      <p style="color: blue;">November 2013</p>
+                      <p style="color: blue;">October 2013</p>
+                      <p style="color: blue;">September 2013</p>
+                      <p style="color: blue;">August 2013</p>
+                      <p style="color: blue;">July 2013</p>  
+                      <p style="color: blue;"> June 2013</p>
+                      <p style="color: blue;"> May 2013</p>
+                      <p style="color: blue;"> April 2013</p>
+                     </div>
+                      <div class="left-3">
+                        <h1>Sub-heading</h1>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Example code block</p>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, 
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
                       </div>
-                        <div>
-                          <h></h>
-                          <p></p>
-                          <p></p>
-                          <p></p>
+                       <div class="right-3">
+                         <h1>Elsewhere</h1>
+                         <a href="assignment2.html">Github</a><br>
+                         <a href="assignment2.html">Twitter</a><br>
+                         <a href="assignment2.html">Facebook</a><br>
+                       </div>
+                         <div class="m-flex">
+                          <h1>Sub-heading</h1>
+                          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
+                              ut fermentum massa justo sit amet risus.</p>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                          <p>Donec id elit non mi porta gravida at eget metus.</p>
+                          <p>Donec id elit non mi porta gravida at eget metus.</p>
+                          <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                                 <p>1. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                                 <p>2. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                                 <p>3. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                                 <p>4. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>    
                         </div>
-                          <div>
-                            <h></h>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>    
-                          </div>
-                            <div>
-                              <h></h>
-                              <p></p>
-                              <p></p>
-                              <p></p>
-                              <p></p>
-                              <p></p>
+                          <div class="another">
+                           <h1>Another blog post</h1>
+                           <ul> <p>December 23, 2013 by Jacob</p>
+                           <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
+                                 Cras mattis consectetur purus sit amet fermentum.</p>
+                                <li><p>1.Donec id elit non mi porta gravida at eget metus.</p>
+                                 <p>2.Donec id elit non mi porta gravida at eget metus.</p></li>
+                           <p>Donec id elit non mi porta gravida at eget metus.</p></ul>
+                         </div>
+                            <div class="new">
+                             <h1>New feature</h1>
+                             <p>December 23, 2013 by Jacob</p>
+                             <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
+                                  <p>1.Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
+                                  <p>2.Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
+                                  <p>3.Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
+                             <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
+                             <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis</p>
                             </div>
-                              <div>
-                                <h></h>
-                                <p></p>
-                                <p></p>
-                                <p></p>
-                                <p></p>
-                                <p></p>
-                                <p></p>
-                                <p></p>
-                              </div>
-                              <div>
-                                <button>Older</button>
-                                <button>Newer</button>
-                              </div>
+                                <div>
+                                  <button style="color: blue;">Older</button>
+                                  <button>Newer</button>
+                                </div>
     </div>     
   </body> 
 </html>                        
