@@ -16,8 +16,19 @@
 
 
 // 4. Find out whether a given number or a string is palindrome(something that looks the same reading straight or in reverse)
-// ans. 
-
+// ans. first input the number or string
+// find the reverse of the string or number
+// if the reverse is equal to input than it is palindrome 
 
 
 // 5. Find the 10th number of a fibonacci series
+// ans. first we need  number 10th
+// second we need 2 variables 0, 1
+// var i;
+//var fib = [];
+//fib[0] = 0;
+//fib[1] = 1;
+//for (i = 2; i <= 10; i++) {
+// fib[i] = fib[i - 2] + fib[i - 1];
+//  console.log(fib[i]);
+//}
